@@ -35,7 +35,8 @@ class _HomeState extends State<Home> {
         actions: <Widget>[
           TextButton(
             child: Text("保存"),
-            style: ButtonStyle(foregroundColor: MaterialStateProperty.all(Colors.white)),
+            style: ButtonStyle(
+                foregroundColor: MaterialStateProperty.all(Colors.white)),
             onPressed: () {
               _controller.outImage().then((image) async {
                 //保存或上传代码
