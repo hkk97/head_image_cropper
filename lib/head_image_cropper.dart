@@ -220,6 +220,24 @@ class CropperImageElement extends RenderObjectElement {
     super.debugFillProperties(properties);
     properties.add(DiagnosticsProperty<ImageProvider>('_image', _image));
   }
+
+  @override
+  void insertRenderObjectChild(
+      covariant RenderObject child, covariant Object? slot) {
+    // TODO: implement insertRenderObjectChild
+  }
+
+  @override
+  void moveRenderObjectChild(covariant RenderObject child,
+      covariant Object? oldSlot, covariant Object? newSlot) {
+    // TODO: implement moveRenderObjectChild
+  }
+
+  @override
+  void removeRenderObjectChild(
+      covariant RenderObject child, covariant Object? slot) {
+    // TODO: implement removeRenderObjectChild
+  }
 }
 
 class Pointer {
